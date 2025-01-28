@@ -39,18 +39,18 @@ This project aims to predict breast cancer diagnosis based on the Wisconsin Brea
 
 ---
 
-   Semantic Search and Question Answering System
-Technologies: Python, OpenAI GPT-4, LangChain, LlamaIndex, Chroma, Recursive Text Splitting
-This project implements a Semantic Search and Question Answering System that enables users to query a corpus of documents and receive concise, contextually accurate answers. It leverages Large Language Models (LLMs) such as OpenAI’s GPT-4, paired with vector-based retrieval for efficient semantic matching and summarization.
-🚀 Project Highlights
+# **RAG**
 
-📰 Document Ingestion and Processing – Loaded and processed text documents from local directories using efficient text loaders and recursive splitting techniques to prepare data for vectorization.
-📊 Vector Database Integration – Embedded document chunks using OpenAI Embeddings and stored them in a vector database (Chroma) for semantic search.
-🧠 LLM-Powered Summarization – Used MapReduceDocumentsChain for summarizing document chunks in a hierarchical manner, leveraging the GPT-4 model for context-aware summarization.
-🔄 Retriever-Augmented Generation (RAG) – Implemented RAG chains for precise question answering by combining retrieved contexts with a structured prompt.
-🧵 Custom Query Templates – Designed specialized prompts to guide the language model to provide concise answers, including options for language-specific responses (e.g., Chinese).
-🗃️ Dynamic Query Retrieval – Utilized retrievers to fetch relevant chunks from the vector store based on similarity scores, ensuring accuracy and relevance in question answering.
-🌐 Dual Framework Support – Explored the capabilities of both LangChain and LlamaIndex to test flexibility in semantic search, document retrieval, and model integration.
-⚙️ High-Performance Workflow – Automated document loading, embedding, retrieval, summarization, and answering in a pipeline optimized for large-scale document processing.
+*Technologies: Python, OpenAI GPT-4, LangChain, LlamaIndex, Chroma, Recursive Text Splitting*
+This project implements a **Semantic Search and Question Answering System** that enables users to query a corpus of documents and receive concise, contextually accurate answers. It leverages **Large Language Models (LLMs)** such as OpenAI’s GPT-4, paired with vector-based retrieval for efficient semantic matching and summarization.
+🚀 **Project Highlights**
 
+- 📰 **Document ingestion and processing** – Loaded and processed text documents from local directories using efficient text loaders and recursive splitting techniques to prepare data for vectorization.  
+- 📊 **Vector database integration** – Embedded document chunks using `OpenAI Embeddings` and stored them in a vector database (`Chroma`) for semantic search.  
+- 🧠 **LLM-powered summarization** – Used `MapReduceDocumentsChain` for summarizing document chunks in a hierarchical manner, leveraging the GPT-4 model for context-aware summarization.  
+- 🔄 **Retriever-Augmented Generation (RAG)** – Implemented RAG chains for precise question answering by combining retrieved contexts with a structured prompt.  
+- 🧵 **Custom query templates** – Designed specialized prompts to guide the language model to provide concise answers, including options for language-specific responses (e.g., Chinese).  
+- 🗃️ **Dynamic query retrieval** – Utilized retrievers to fetch relevant chunks from the vector store based on similarity scores, ensuring accuracy and relevance in question answering.  
+- 🌐 **Dual framework support** – Explored the capabilities of both `LangChain` and `LlamaIndex` to test flexibility in semantic search, document retrieval, and model integration.  
+- ⚙️ **High-performance workflow** – Automated document loading, embedding, retrieval, summarization, and answering in a pipeline optimized for large-scale document processing.  
 
