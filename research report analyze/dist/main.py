@@ -14,7 +14,7 @@ agent_Gabriel = (
 agent_Gabriel = (
     Agently.create_agent()
         .set_settings("current_model", "OpenAI")
-        .set_settings("model.OpenAI.auth", { "api_key": "put your api key" })
+        .set_settings("model.OpenAI.auth", { "api_key": "put your api key here" })
 
         .set_settings("model.OpenAI.options", { "model": "chatgpt-4o-latest" })
 
@@ -133,6 +133,6 @@ Agently.global_tool_manager.register(**tool_info)
 
 
 
-print(create_report(1, "MS",20, agent_Gabriel))
+create_report(1, "MS",20, agent_Gabriel)
 
 
